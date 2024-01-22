@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.search-main{
+  position: absolute;
+  z-index: 10;
+  height: auto;
+  width: 100%;
+  top: 0;
+  left: 0
+}
+.search-main:focus, .search-main:hover, .search-main:active{
+  border-color: #f1f5fc;
+  box-sizing: border-box;
+  box-shadow: 0 0 0 0.10rem rgba(13,110,253,.25);
+}
+
+.search-input{
+  position: relative;
+  min-height: 50px;
+}
+.search-prev-searches{
+  position: relative;
+  min-height: 200px;
+  max-height: 400px;
+  z-index: 11;
+  left: 0;
+  width: 100%;
+  overflow-y: auto;
+}
+.search-results{
+  padding-top: 87px;
+  width: 100%;
+  position: relative;
+  z-index: 9; 
+}
+
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: #fff;
+  outline: 0;
+  box-shadow: none;
+}
+.recent{
+  cursor: pointer;
+}
+.recent:hover{
+  background-color: aliceblue;
+}
+
+
+

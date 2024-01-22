@@ -1,0 +1,4 @@
+{
+  "production_base_url": "https://moviesearch.sytes.net/api/movies",
+  "local_base_url": "http://localhost:5095/api/movies"
+}
